@@ -1,0 +1,20 @@
+html
+  head
+    block vars
+      - var page = "Base"
+    block head
+      unless page == "Home"
+        title Mel M. &rarr; #{page}
+      else
+        title Mel Marshall
+      link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:500&display=swap")
+      link(rel="stylesheet" href="fonts.css")
+      link(rel="stylesheet" href="main.css")
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+      meta(charset="utf-8")
+      script(src="https://code.jquery.com/jquery-3.4.1.slim.min.js"   integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous")
+      script(src="main.js")
+  body
+    block body
+    //- .pira
+    //-   a(href="http://piraba.net" target="_blank") #[img(src="img/pira-R.svg" width="35px")]

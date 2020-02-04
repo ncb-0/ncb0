@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Pico";
+  src: url("fonts/Pico.woff2") format("woff2"), url("fonts/Pico.woff") format("woff"), url("fonts/Pico.ttf") format("truetype");
+  font-weight: 400;
+}

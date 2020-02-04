@@ -1,0 +1,235 @@
+// vars
+$txt          = #444
+$bg           = #fff
+$easeOutQuint = cubic-bezier(0.23, 1, 0.32, 1)
+$picoFont     = "Pico", "M PLUS Rounded 1c", system-ui, sans-serif
+// animations
+@keyframes pulse 
+  0%, 100%
+    opacity 1
+  25%, 75%
+    opacity 0
+@keyframes blink
+  0%, 100%
+    opacity 1
+  50%
+    opacity 0
+// general
+*
+  // cursor url(img/cursor.svg) 4 4, auto
+  margin 0
+  padding 0
+  box-sizing border-box
+  user-select none
+  font-feature-settings "ss03"
+*::selection
+  background alpha($txt,0.15)
+*::-webkit-scrollbar
+  display none
+body
+  // padding 14px 10px
+  background $bg
+  // grid-gap 10px
+span.hide
+  display none
+.nm
+  margin-bottom 0
+.back
+  z-index 4
+  position fixed
+  top 7.5px
+  left 8px
+.pira
+  z-index 4
+  position fixed
+  bottom 6px
+  left 6px
+// item info
+.info
+  // display none
+  padding 8px 7.5px
+  z-index 10
+  margin 0 auto
+  width calc(100vw - 520px)
+  min-width 750px
+  // height 100vh
+  // left 520px
+  top 0
+  background $bg
+.info img
+  // width calc(100% - 3px)
+  width 100%
+  display block
+  // max-width 500px
+  border-radius 8px
+.shadow
+  box-shadow 0 2px 4px -2px alpha($txt,0.4)
+  // margin-bottom 4px
+figure
+  margin 15px 0
+figcaption
+  margin-top 5px
+.noround
+  border-radius 0px
+// layout
+.grid
+  // position fixed
+  display grid
+  grid-template-columns 1fr 1fr
+  width 520px
+  background $bg
+.hero
+  z-index 1
+  padding 8px 7.5px
+  height 100vh
+  position fixed
+  left 520px
+  top 0
+  width calc(100vw - 520px)
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/grg.jpg) center / cover
+  background $bg
+.hero h3
+  color $bg
+  text-align right
+  transform translateX(0.6px)
+.bio, .items
+  z-index 3
+  padding 8px 7.5px
+  height 100vh
+section
+  margin-bottom 15px
+.item
+  a
+    // cursor url(img/cursor-c.svg), auto
+    // text-transform lowercase
+    display grid
+    grid-template-columns 1fr 30px
+  a #itxt h2
+    // cursor url(img/cursor-c.svg), auto
+  a #iarr h2
+    // cursor url(img/cursor-c.svg), auto
+    color alpha($txt,0.0)
+.item#hover
+  a #iarr h2
+    // animation blink 0.5s step-end infinite
+    color alpha($txt,1.0)
+.gradient
+  z-index 3
+  position fixed
+  height 100vh
+  width 100px
+  top 0
+  left 520px
+  background linear-gradient(
+    to right,
+    alpha($bg,1) 0%,
+    alpha($bg,0.987) 8.1%,
+    alpha($bg,0.951) 15.5%,
+    alpha($bg,0.896) 22.5%,
+    alpha($bg,0.825) 29%,
+    alpha($bg,0.741) 35.3%,
+    alpha($bg,0.648) 41.2%,
+    alpha($bg,0.55) 47.1%,
+    alpha($bg,0.45) 52.9%,
+    alpha($bg,0.352) 58.8%,
+    alpha($bg,0.259) 64.7%,
+    alpha($bg,0.175) 71%,
+    alpha($bg,0.104) 77.5%,
+    alpha($bg,0.049) 84.5%,
+    alpha($bg,0.013) 91.9%,
+    alpha($bg,0) 100%)
+// font styles
+h1
+  color $txt
+  font 400 75px/0.95 $picoFont
+  letter-spacing -2.5
+  transform translateX(-3.5px)
+  margin-bottom 15px
+h2
+  color $txt
+  font 400 50px/0.95 $picoFont
+  letter-spacing -1px
+  transform translateX(-2px)
+  margin-bottom 20px
+h3
+  color $txt
+  font 400 25px/0.95 $picoFont
+  transform translateX(-0.6px)
+  margin-bottom 10px
+p
+  color $txt
+  font 400 18px/1.15 $picoFont
+  letter-spacing 0.4px
+  margin-bottom 10px
+small, figcaption
+  color $txt
+  font 400 13px/1.15 $picoFont
+  letter-spacing 0.4px
+  margin-bottom 10px
+// link styles
+a
+  // cursor url(img/cursor-c.svg), auto
+  color $txt
+  text-decoration none
+a:hover
+  opacity 0.5
+a.nearr:hover, a.rarr:hover, .item a:hover
+  opacity 1
+a.nearr::after
+  content "↗"
+a.rarr::after
+  content "→"
+a.nearr:hover::after, a.rarr:hover::after
+  animation blink 0.1s step-end infinite
+// image IDs
+#sb
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/sb.jpg) center / cover
+#piraba
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/piraba.jpg) center / cover
+#yakui
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/yakui.jpg) center / cover
+#itemlabel
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/il-temp.jpg) center / cover
+#crushed
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/crushed.jpg) center / cover
+#efs
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/efs.jpg) center / cover
+#pd9
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/pd9.jpg) center / cover
+#zine
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/zine.jpg) center / cover
+#neet
+  background url(img/grid-1px.svg) 1px 1px/2px 2px repeat,
+    url(img/neet3.jpg) center / cover
+// media queries
+@media (max-width 799px)
+  span.hide
+    display inline
+  .pira, .back
+    display none
+@media (max-width 750px)
+  .grid
+    width 100vw
+    grid-template-columns 1fr
+  .bio, .items
+    height auto
+  .info
+    width 100vw
+    min-width 200px
+  .gradient, .hero
+    display none
+  // .pira, .back
+  //   display none
+  .item a
+    grid-template-columns 1fr 35px
+  small 
+    font 400 18px/1.15 $picoFont
