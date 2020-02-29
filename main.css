@@ -220,7 +220,7 @@ a.rarr:hover::after {
     grid-template-columns: 1fr 35px;
   }
   small {
-    font: 400 18px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
+    font: 600 18px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   }
 }
 @-moz-keyframes pulse {
