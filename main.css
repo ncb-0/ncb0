@@ -107,7 +107,7 @@ section {
 }
 h1 {
   color: #332;
-  font: 300 75px/0.95 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
+  font: 400 75px/0.95 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   letter-spacing: -2.5;
   transform: translateX(-3.5px);
   margin-bottom: 15px;
@@ -127,7 +127,7 @@ h3 {
 }
 p {
   color: #332;
-  font: 500 18px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
+  font: 500 16px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   letter-spacing: 0.4px;
   margin-bottom: 10px;
 }
@@ -168,6 +168,9 @@ a.rarr:hover::after {
 }
 #famicase {
   background: url("img/grid-1px.svg") 1px 1px/2px 2px repeat, url("img/famicase-hero.jpg") center/cover;
+}
+#conejo {
+  background: url("img/grid-1px.svg") 1px 1px/2px 2px repeat, url("img/conejo1.jpg") center/cover;
 }
 #yakui {
   background: url("img/grid-1px.svg") 1px 1px/2px 2px repeat, url("img/yakui.jpg") center/cover;

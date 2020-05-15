@@ -13,6 +13,9 @@ $(() => {
   $(".item#afamicase").mouseover(function() {
     $(".hero").attr("id", "famicase");
   });
+  $(".item#aconejo").mouseover(function() {
+    $(".hero").attr("id", "conejo");
+  });
   $(".item#ayakui").mouseover(function() {
     $(".hero").attr("id", "yakui");
   });
