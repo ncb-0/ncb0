@@ -6,7 +6,7 @@
   font-feature-settings: "frac";
 }
 *::selection {
-  background: rgba(68,68,68,0.15);
+  background: rgba(51,51,34,0.15);
 }
 *::-webkit-scrollbar {
   display: none;
@@ -91,10 +91,10 @@ section {
   grid-template-columns: 1fr 30px;
 }
 .item a #iarr h2 {
-  color: rgba(68,68,68,0);
+  color: rgba(51,51,34,0);
 }
 .item#hover a #iarr h2 {
-  color: #444;
+  color: #332;
 }
 .gradient {
   z-index: 3;
@@ -106,40 +106,40 @@ section {
   background: linear-gradient(to right, #fff 0%, rgba(255,255,255,0.987) 8.1%, rgba(255,255,255,0.951) 15.5%, rgba(255,255,255,0.896) 22.5%, rgba(255,255,255,0.825) 29%, rgba(255,255,255,0.741) 35.3%, rgba(255,255,255,0.648) 41.2%, rgba(255,255,255,0.55) 47.1%, rgba(255,255,255,0.45) 52.9%, rgba(255,255,255,0.352) 58.8%, rgba(255,255,255,0.259) 64.7%, rgba(255,255,255,0.175) 71%, rgba(255,255,255,0.104) 77.5%, rgba(255,255,255,0.049) 84.5%, rgba(255,255,255,0.013) 91.9%, rgba(255,255,255,0) 100%);
 }
 h1 {
-  color: #444;
+  color: #332;
   font: 300 75px/0.95 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   letter-spacing: -2.5;
   transform: translateX(-3.5px);
   margin-bottom: 15px;
 }
 h2 {
-  color: #444;
+  color: #332;
   font: 400 50px/0.95 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   letter-spacing: -1px;
   transform: translateX(-2px);
   margin-bottom: 20px;
 }
 h3 {
-  color: #444;
+  color: #332;
   font: 500 25px/0.95 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   transform: translateX(-0.6px);
   margin-bottom: 10px;
 }
 p {
-  color: #444;
+  color: #332;
   font: 500 18px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   letter-spacing: 0.4px;
   margin-bottom: 10px;
 }
 small,
 figcaption {
-  color: #444;
+  color: #332;
   font: 600 13px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   letter-spacing: 0.4px;
   margin-bottom: 10px;
 }
 a {
-  color: #444;
+  color: #332;
   text-decoration: none;
 }
 a:hover {
@@ -165,6 +165,9 @@ a.rarr:hover::after {
 }
 #piraba {
   background: url("img/grid-1px.svg") 1px 1px/2px 2px repeat, url("img/piraba.jpg") center/cover;
+}
+#famicase {
+  background: url("img/grid-1px.svg") 1px 1px/2px 2px repeat, url("img/famicase-hero.jpg") center/cover;
 }
 #yakui {
   background: url("img/grid-1px.svg") 1px 1px/2px 2px repeat, url("img/yakui.jpg") center/cover;
@@ -218,65 +221,6 @@ a.rarr:hover::after {
   }
   small {
     font: 500 18px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  body,
-  .grid,
-  .info {
-    background: #444;
-  }
-  *::selection {
-    background: rgba(255,255,255,0.15);
-  }
-  .hero {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat;
-    background: #444;
-  }
-  #sb {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/sb.jpg") center/cover;
-  }
-  #piraba {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/piraba.jpg") center/cover;
-  }
-  #yakui {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/yakui.jpg") center/cover;
-  }
-  #itemlabel {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/il-temp.jpg") center/cover;
-  }
-  #crushed {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/crushed.jpg") center/cover;
-  }
-  #efs {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/efs.jpg") center/cover;
-  }
-  #pd9 {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/pd9.jpg") center/cover;
-  }
-  #zine {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/zine.jpg") center/cover;
-  }
-  #neet {
-    background: url("img/grid-1px-dark.svg") 1px 1px/2px 2px repeat, url("img/neet3.jpg") center/cover;
-  }
-  .gradient {
-    background: linear-gradient(to right, #444 0%, rgba(68,68,68,0.987) 8.1%, rgba(68,68,68,0.951) 15.5%, rgba(68,68,68,0.896) 22.5%, rgba(68,68,68,0.825) 29%, rgba(68,68,68,0.741) 35.3%, rgba(68,68,68,0.648) 41.2%, rgba(68,68,68,0.55) 47.1%, rgba(68,68,68,0.45) 52.9%, rgba(68,68,68,0.352) 58.8%, rgba(68,68,68,0.259) 64.7%, rgba(68,68,68,0.175) 71%, rgba(68,68,68,0.104) 77.5%, rgba(68,68,68,0.049) 84.5%, rgba(68,68,68,0.013) 91.9%, rgba(68,68,68,0) 100%);
-  }
-  .item a #iarr h2 {
-    color: rgba(255,255,255,0);
-  }
-  .item#hover a #iarr h2 {
-    color: #fff;
-  }
-  h1,
-  h2,
-  h3,
-  p,
-  small,
-  figcaption,
-  a {
-    color: #fff;
   }
 }
 @-moz-keyframes pulse {

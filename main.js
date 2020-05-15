@@ -10,6 +10,9 @@ $(() => {
   $(".item#apiraba").mouseover(function() {
     $(".hero").attr("id", "piraba");
   });
+  $(".item#afamicase").mouseover(function() {
+    $(".hero").attr("id", "famicase");
+  });
   $(".item#ayakui").mouseover(function() {
     $(".hero").attr("id", "yakui");
   });
