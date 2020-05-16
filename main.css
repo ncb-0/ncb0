@@ -134,7 +134,7 @@ p {
 small,
 figcaption {
   color: #332;
-  font: 600 13px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
+  font: 500 13px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   letter-spacing: 0.4px;
   margin-bottom: 10px;
 }
@@ -223,7 +223,7 @@ a.rarr:hover::after {
     grid-template-columns: 1fr 35px;
   }
   small {
-    font: 500 18px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
+    font: 500 16px/1.15 "Pico", "M PLUS Rounded 1c", system-ui, sans-serif;
   }
 }
 @-moz-keyframes pulse {
