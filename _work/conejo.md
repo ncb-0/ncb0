@@ -7,28 +7,34 @@ year: 2019–
 date: 2020-05-02
 ---
 <figure class="float right">
-  <img src="{{ site.baseurl }}/assets/img/committee.png">
+  <img src="{{ site.baseurl }}/assets/img/nez-farm.png">
   <figcaption>
-    … it’s not that serious we just a bunch of kawaii animals who love to PARTY!
+    My avatar Nezubo relaxing.
   </figcaption>
 </figure>
 
-The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains Conejo Island, a virtual commune in Second Life founded by my close friend [Sofa.](http://yogurt200.neocities.org)
+The [Conejo Committee](http://casaconejo.neocities.org) inhabits and maintains Conejo Island, a virtual commune in Second Life founded by my close friend [Sofa.](http://yogurt200.com) The island is divided into several smaller parcels of land owned by different residents, each with their own unique flavour and decorations.
 
-Conejo is divided into several smaller parcels of land owned by different residents, each with their own unique flavour and decorations. I live on my parcel [Isla Piraba](/work/piraba#isla-piraba) where I also host music events.
-
-Some other places in Conejo include a community park, a Japanese-style bar, an onsen, and a large shared house where the committee members meet.
-
-<figure>
-  <img src="{{ site.baseurl }}/assets/img/conejomap.png">
-  <figcaption>
-    Sofa’s map of Conejo Island as of June 2020.
-  </figcaption>
-</figure>
+Every few months, we host a new [CONEJOBEAT](http://conejobeat.com)—an ongoing series of virtual raves featuring DJ sets and artwork curated by myself and the Committee. Information on past raves below…
 
 <!-- ![](/assets/img/committee.png) -->
 
 <!-- ##### … it's not that serious doe we just a bunch of kawaii animals who love to PARTY! -->
+
+* * *
+
+### conejobeat_flux
+
+31 Jul 2021, our most recent rave.
+<figure>
+  <div style="position:relative;padding-top:56.25%;margin-bottom:7px;">
+    <iframe src="https://www.youtube.com/embed/8RUM_qN37Dw" frameborder="0" allowfullscreen
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+  </div>
+  <figcaption>
+    Sofa’s conejobeat_flux clip compilation.
+  </figcaption>
+</figure>
 
 * * *
 
