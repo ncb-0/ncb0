@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<!-- <div class="post-bg"></div> -->
+<div class="post-full">
+  <div id="back">
+    <h3 style="margin-top:2px;">
+      <a href="/index.html">&larr;</a>
+    </h3>
+  </div>
+  <h3 style="margin-top:2px;">
+    <!-- <span class="hide">
+      <a href="/index.html">&larr;</a>
+    </span> -->
+    {{ page.date | date: "%Y.%m.%d" }}, {{ page.type }}.
+  </h3>
+  <h2>{{ page.title }}</h2>
+  <div class="post-full-content">
+    {{ content }}
+  </div>
+</div>

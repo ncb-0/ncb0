@@ -1,0 +1,12 @@
+<div id="work">
+  <!-- <h3 style="margin:2px 0 4px;">
+    portfolio
+  </h3> -->
+    
+  {% assign sorted = site.work | sort: "date" | reverse %}
+  {% for work in sorted %}
+    <div class="item" id="{{ work.name }}">
+      <h2><a class="itemlink" href="{{ work.url | prepend: site.baseurl }}">{{ work.short }}</a></h2>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,34 @@
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-target-blank
+
+collections:
+  work:
+    output: true
+    permalink: /work/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "work"
+    values:
+      layout: "item"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      excerpt_separator: <!-- more -->
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+target-blank:
+  add_css_classes: external2
